@@ -1,4 +1,5 @@
-class BooksController < ApplicationController
+
+class BookController < ApplicationController
   def index
     @books1 = Book.all
   end
